@@ -1,0 +1,55 @@
+/*removing default setup*/
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: white;
+	background: url("./pattern.png");
+}
+
+.main{
+	background-color: #B2CDFA;
+	width: 400px;
+	height: 175px;
+    margin: 100px auto;
+    position: relative;
+    padding-top: 30px;
+    border-style: dotted;
+    border-radius: 5px; 
+    border-color: #e66357; 
+}
+
+.apptitle{
+	width: 118px; 
+	background-color: #e66357;
+	color: white;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	font-weight: bold; 
+	position: absolute;
+	top: -15px;/*negative value takes it upwards relative to main content*/
+	left: 35%;
+}
+
+.clock{
+    background-color: #EBEBEB;
+    text-align: center;
+    color: black;
+    font-size: 55px; 
+    height: 80%; 
+    padding-top: 25px;
+    font-family: 'Orbitron', sans-serif;
+    border-style: inset;
+    border-radius: 5px; 
+    border-color: #F1F37B; 
+}
+
+.datetoday{
+	text-align: center;
+	margin-left: 15px;
+	font-size: 25px; 
+	font-family: 'Work Sans', sans-serif;	
+}
